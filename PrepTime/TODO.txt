@@ -1,0 +1,5 @@
+- Cooks: Cooks assigned to dishes
+- Overlapped tasks: Tasks can be set so the next task can be started before the current task is complete
+- Insert time after a task is complete, but before the next one starts
+- Fix Task menu button to track selected item when scrolling the TaskView
+- Ability to start a task for a dish just before or just after a task of a different dish

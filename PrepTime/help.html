@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PrepTime Help</title>
+<style>
+/* Reset default browser styles */
+html, body, header, nav, footer, article, p, h1, h2, div, span
+{
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   font-size: 1em;
+   font-weight: normal;
+   vertical-align: baseline;
+   line-height: 1.2;
+}
+ol, ul
+{
+   margin: 0px;
+   border: 0px;
+   font-size: 1em;
+   vertical-align: baseline;
+   line-height: 1.2;
+}
+/* End reset default browser styles */
+html[data-useragent*='MSIE']
+{
+   font-size: .9em;
+}
+body
+{
+   font-family: ""Trebuchet MS"", Arial, Helvetica, sans-serif;
+}
+.topMargin
+{
+   margin: 10px 0px 0px 0px;
+}
+.leftMargin
+{
+   margin: 0px 0px 0px 10px;
+}
+header
+{
+   margin: 0px 0px 20px 10px;
+}
+h1
+{
+   font-size: 2em;
+   font-weight: bold;
+}
+h2
+{
+   font-size: 1.6em;
+   font-weight: bold;
+}
+h3
+{
+   font-size: 1.3em;
+   font-weight: bold;
+}
+h4
+{
+   font-size: 1.1em;
+   font-weight: bold;
+}
+header p
+{
+   font-size: 1.2em;
+}
+nav
+{
+   margin: 0px 30px 20px 10px;
+   float: left;
+}
+article
+{
+   width: 70%;
+   float: left;
+}
+ol.sublist1
+{
+   list-style-type: upper-alpha;
+}
+ol.sublist2
+{
+   list-style-type: lower-roman;
+}
+ul.noMarkers
+{
+   list-style-type: none;
+}
+footer
+{
+   clear: both;
+   margin: 20px 0px 10px 20px;
+   padding: 20px 0px 0px 0px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>PrepTime Help</h1>
+<p>v1.0</p>
+</header>
+<nav>
+   <h2>Table of Contents</h2>
+   <ol>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#concepts">Concepts</a></li>
+      <li><a href="#gettingstarted">Getting Started</a></li>
+      <li><a href="#workinginpreptime">Working in PrepTime</a></li>
+      <ol class="sublist1">
+         <li><a href="#dishes">Dishes</a></li>
+         <ol class="sublist2">
+            <li><a href="#addingadish">Adding a Dish</a></li>
+            <li><a href="#editingadish">Editing a Dish</a></li>
+            <li><a href="#deletingadish">Deleting a Dish</a></li>
+         </ol>
+         <li><a href="#tasks">Tasks</a></li>
+         <ol class="sublist2">
+            <li><a href="#addingatask">Adding a Task</a></li>
+            <li><a href="#editingatask">Editing a Task</a></li>
+            <li><a href="#deletingatask">Deleting a Task</a></li>
+            <li><a href="#movingatask">Moving a Task</a></li>
+            <li><a href="#taskdependencies">Task Dependencies</a></li>
+         </ol>
+         <li><a href="#menus">Menus</a></li>
+         <ol class="sublist2">
+            <li><a href="#fileMenu">File Menu</a></li>
+            <li><a href="#helpMenu">Help Menu</a></li>
+         </ol>
+      </ol>
+      <li><a href="#tips">Tips</a></li>
+   </ol>
+</nav>
+<article>
+   <h2><a id="introduction">Introduction</a></h2>
+   <div class="leftMargin">
+      <p class="topMargin">PrepTime is a tool to help you plan how to create your meals.  It can tell you when to start preparing and when to start each preparation step.  So when the activity in the kitchen gets intense, you can be assured that you're going to have a timely meal prepared.</p>
+   </div>
+   <h2><a id="concepts">Concepts</a></h2>
+   <div class="leftMargin">
+      <p class="topMargin">There are a few concepts to keep in mind when using PrepTime that will help you understand how it works.</p>
+      <ol>
+         <li>Meal: A meal consists of one or more dishes.</li>
+         <li>Dish: A dish is something that you make to serve at a meal.  In order to create it, you must perform one or more tasks.</li>
+         <li>Task: A task (or step) is a unit of work that must be done in order to complete a dish.</li>
+         <li>Interval: The length of time a task takes to complete.</li>
+         <li>Begin time: The begin time is when the preparation of a meal should begin in order to assure that is is completed by the end time.  PrepTime calculates this for you based on the tasks entered and the end time selected.</li>
+         <li>End time: The time when a meal should be completed.  This is set by the user.</li>
+         <li>Dependency: A task can depend on another task.  For example, gravy is usually made from meat drippings.  Therefore the first task in creating gravy should not begin until the meat is taken out of the oven.</li>
+      </ol>
+   </div>
+   <h2 class="topMargin"><a id="gettingstarted">Getting Started</a></h2>
+   <div class="leftMargin">
+      <p class="topMargin">In PrepTime you create dishes and add steps or tasks to them.  You also tell it when you would like to serve your meal.  PrepTime will add up all the tasks in all the dishes and calculate when to start cooking.  It will also list out when to start each step of each dish.</p>
+      <p class="topMargin">You should first set up a dish to add tasks to.  PrepTime already has a default dish called "Dish", but you can rename it by double-clicking on the dish name.  Hit Enter when you are done with the name.</p>
+      <p class="topMargin">Next you'll want to add some tasks that must be done in order to prepare the dish.  Put your cursor in the "Description" box and give a short description of the step.  When you're done with the description, press Tab or click in the "Interval" box.  Enter the amount of time it will take to complete the step.  Note the format to the right of the box.  If you just type in a number with no colon, PrepTime will understand that to be minutes.  When you're finished entering an interval, click on the "Add" button or hit Enter.  Notice that the task was inserted in the list below.  You can add as many tasks as needed to a dish.</p>
+      <p class="topMargin">PrepTime supports multiple dishes per meal.  Click on the "Select Action" menu in the "Dishes" area to the left.  A menu will appear and selecting "Add" will allow you to add another dish.  With the new dish selected in the "Dishes" list you can start adding tasks to it in the "Tasks" area.  Note that the dish that is selected in the "Dishes" area list is the dish that new tasks are added to.</p>
+      <p class="topMargin">At any time you can change the time you want meal preparation to be completed.  On the right in the "Times" area you can enter the time that you want the meal to be done in the "End" box.  You can either type in the date and time or click on the calendar icon.  PrepTime will automatically recalculate the start time and all the times in the task list below.</p>
+      <p class="topMargin">When you are all done with the meal, you can save it to disk by going to "File">"Save" in the menu.  You can also export an HTML file containing the meal information by going to "File">"Export".  You can then open up the exported HTML file in your prefered web browser and print it.</p>
+   </div>
+   <h2 class="topMargin"><a id="workinginpreptime">Working In PrepTime</a></h2>
+   <div class="leftMargin">
+      <h3 class="topMargin"><a id="dishes">Dishes</a></h3>
+      <div class="leftMargin">
+         <p class="topMargin">A dish represents a dish that you would like to prepare.  It consists of one or more tasks or steps.  You can manage the dishes in a meal on the upper right in the "Dishes" area.  Double-clicking on the name of a dish will allow you to edit it.  When a dish name is selected, you can click on the "Select Action" drop down list, which contains various actions that can be applied to the selected dish.</p>
+         <ol>
+            <li>Add: Adds a new dish to the meal.</li>
+            <li>Edit: Allows you to edit the name of the selected dish.</li>
+            <li>Delete: Removes the selected dish from the meal.</li>
+         </ol>
+         <h4 class="topMargin"><a id="addingadish">Adding a Dish</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">Add a dish by selecting "Add" in the "Select Action" menu in the "Dishes" area.  A new dish will be added to the dish list.  You can immediately give the dish a name.
+         </div>
+         <h4 class="topMargin"><a id="editingadish">Editing a Dish</a></h4>
+         <div class="leftMargin">
+         <p class="topMargin">Change the name of a dish by selecting the name of a dish in the list and selecting "Edit" in the "Select Action" menu in the "Dishes" area.  You can then type in a new name.  Press Enter to accept the new name or Escape to revert to the old name.</p>
+         </div>
+         <div class="leftMargin">
+            <h4 class="topMargin"><a id="deletingadish">Deleting a Dish</a></h4>
+            <p class="topMargin">Remove a dish from the meal by selecting the name of a dish in the list and selecting "Delete" in the "Select Action" menu in the "Dishes" area.  If the dish has tasks associated with it, you will need to confirm that you want to delete the dish.  If you select "Yes", the dish and all associated tasks will be immediately removed.  You will not be prompted if there are no tasks associated with the dish.  There must be at least one dish in the meal, so you will not be able to delete a dish if there is only one left.</p>
+         </div>
+      </div>
+      <h3 class="topMargin"><a id="tasks">Tasks</a></h3>
+      <div class="leftMargin">
+         <p class="topMargin">A task is a unit of work that must be done in order to complete a dish.  An individual task may only be associated with one dish.</p>
+         <h4 class="topMargin"><a id="addingatask">Adding a Task</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">Tasks are added in the "Task" area at the top of the main screen.  Tasks have a description that tells what work needs to be done for the task.  A task also has an interval, which is the time necessary to complete it.  If you just type in a number, PrepTime will treat it as minutes.  If you enter two numbers separated by a colon, PrepTime will treat it as hours followed by minutes.  Both the "Description" and the "Interval" need to be filled out in order to add the task.  Once the task is as you want it click the "Add" button and the task will be added to the task list.</p>
+            <p class="topMargin">Tasks are inserted into the task list according to some rules.  Tasks are always added as the last task in the dish that it is associated with.  This may mean that the task may not appear as the last task in the entire list.</p>
+         </div>
+         <h4 class="topMargin"><a id="editingatask">Editing a Task</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">To edit a task, click on it in the task list.  The row will highlight and you will see a button called "Select Action" appear to the right.  Now click on the button and select "Edit" from the menu.  A window will appear containing the task's information, which can be changed.</p>
+         </div>
+         <h4 class="topMargin"><a id="deletingatask">Deleting a Task</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">To delete a task, click on it in the task list.  The row will highlight and you will see a button called "Select Action" appear to the right.  Now click on the button and select "Delete" from the menu.  A window will appear asking you to confirm that you wish to delete the task.</p>
+         </div>
+         <h4 class="topMargin"><a id="movingatask">Moving a Task</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">To move a task, click on it in the task list.  The row will highlight and you will see a button called "Select Action" appear to the right.  Now click on the button and select either "Move Up" or "Move Down" depending on which way you want the task to move.  The task will move relative to other tasks in its dish and its dependencies.  This means that it may not move exactly one task up or down in the list.</p>
+            <p class="topMargin">Here is an example task list.  Both the Task1's belong to the same dish and both the Task2's belong to the same dish.
+            <ul class="noMarkers">
+               <li>Task1A</li>
+               <li>Task2A</li>
+               <li>Task2B</li>
+               <li>Task1B</li>
+            </ul>
+            </p>
+            <p>If you move Task1B up it will be placed before Task1A.  The list will then look like this:
+            <ul class="noMarkers">
+               <li>Task1B</li>
+               <li>Task1A</li>
+               <li>Task2A</li>
+               <li>Task2B</li>
+            </ul>
+            </p>
+         </div>
+         <h4 class="topMargin"><a id="taskdependencies">Task Dependencies</a></h4>
+         <div class="leftMargin">
+            <p class="topMargin">To set a dependency for a task, click on it in the task list.  The row will highlight and you will see a button called "Select Action" appear to the right.  Now click on the button and select "Dependencies" from the menu.  A window will appear that will allow you to set the task's dependencies.</p>
+            <p class="topMargin">At the top of the window is a list of dishes.  Changing the dish will cause the "Dish tasks" list to update with that dish's tasks.  Place a check in a task that the selected task should depend on.  Multiple tasks from multiple dishes can be selected.  If you cannot place a check in a task, then making that task a dependency would create a circular dependency.</p>
+            <p class="topMargin">A task cannot depend on tasks that are in its own dish.  Tasks within a dish inherently depend on the previous task in that dish.  To rearrange tasks within a dish see <a href="#movingatask">Moving a Task</a>.</p>
+         </div>
+      </div>
+      <h3 class="topMargin"><a id="menus">Menus</a></h3>
+      <div class="leftMargin">
+         <h4 class="topMargin"><a id="fileMenu">File Menu</a></h4>
+         <div class="leftMargin">
+            <ul class="noMarkers">
+               <li>New: Creates a new, blank meal.  If you have unsaved meal information you will be prompted to save first.</li>
+               <li>Open: Opens a meal file.  If you have unsaved meal information you will be prompted to save first.</li>
+               <li>Save: Saves meal information to a file.  If a file has not been selected yet you will be prompted to select one.</li>
+               <li>Save as: Saves meal information to a file of your chosing.</li>
+               <li>Export: Exports the currently loaded meal information to an HTML file.</li>
+               <li>Exit: Closes PrepTime.  If you have unsaved meal information you will be prompted to save first.</li>
+            </ul>
+         </div>
+         <h4 class="topMargin"><a id="helpMenu">Help Menu</a></h4>
+         <div class="leftMargin">
+            <ul class="noMarkers">
+               <li>Help: Opens up this help file.</li>
+               <li>About: Displays information about PrepTime.</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <h2 class="topMargin"><a id="tips">Tips</a></h2>
+   <p class="topMargin">
+   <ol>
+      <li>The steps in most recipes can be broken down in to smaller sub-steps.  These sub-steps make great tasks to add to a dish.</li>
+      <li>Often recipes will call for pre-processed ingredients such "melted butter."  Since butter does not come melted, you must do that before using it in the recipe.  These pre-process steps are another useful thing to add as a task.</li>
+      <li>Export your meal as an HTML file and print it from your browser.</li>
+      <li>The user interface is set up to quickly add tasks.  When adding tasks, press Tab to move from the "Description" field to the "Interval" field.  When the task has been filled out completely, press Enter to add the task to the list.  After Enter is pressed, the cursor is automatically moved to the "Description" field to begin entering the next task.</li>
+      <li>Double-click on a task in the task list to edit it.</li>
+      <li>Double-click on a dish in the dish list to edit it.</li>
+   </ol>
+   </p>
+</article>
+<footer>
+PrepTime is copyright 2013 by DigiModern Software Solutions Incorporated
+</footer>
+</body>
+</html>
