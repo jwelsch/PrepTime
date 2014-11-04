@@ -1,0 +1,404 @@
+{
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Build": 0,
+    "Revision": 841,
+    "MajorRevision": 0,
+    "MinorRevision": 841
+  },
+  "BeginTime": "2013-11-27T11:12:27.3167915-05:00",
+  "EndTime": "2013-11-28T16:00:27",
+  "DependencyGraph": {
+    "Nodes": {
+      "6": {
+        "ID": 6,
+        "Dependencies": {}
+      },
+      "7": {
+        "ID": 7,
+        "Dependencies": {
+          "6": {
+            "ID": 6,
+            "Dependencies": {}
+          }
+        }
+      },
+      "8": {
+        "ID": 8,
+        "Dependencies": {
+          "7": {
+            "ID": 7,
+            "Dependencies": {}
+          }
+        }
+      },
+      "9": {
+        "ID": 9,
+        "Dependencies": {
+          "8": {
+            "ID": 8,
+            "Dependencies": {}
+          }
+        }
+      },
+      "10": {
+        "ID": 10,
+        "Dependencies": {
+          "9": {
+            "ID": 9,
+            "Dependencies": {}
+          }
+        }
+      },
+      "11": {
+        "ID": 11,
+        "Dependencies": {
+          "10": {
+            "ID": 10,
+            "Dependencies": {}
+          }
+        }
+      },
+      "12": {
+        "ID": 12,
+        "Dependencies": {
+          "11": {
+            "ID": 11,
+            "Dependencies": {}
+          }
+        }
+      },
+      "13": {
+        "ID": 13,
+        "Dependencies": {
+          "12": {
+            "ID": 12,
+            "Dependencies": {}
+          }
+        }
+      },
+      "14": {
+        "ID": 14,
+        "Dependencies": {
+          "13": {
+            "ID": 13,
+            "Dependencies": {}
+          }
+        }
+      },
+      "15": {
+        "ID": 15,
+        "Dependencies": {
+          "14": {
+            "ID": 14,
+            "Dependencies": {}
+          }
+        }
+      },
+      "16": {
+        "ID": 16,
+        "Dependencies": {
+          "15": {
+            "ID": 15,
+            "Dependencies": {}
+          }
+        }
+      },
+      "17": {
+        "ID": 17,
+        "Dependencies": {}
+      },
+      "18": {
+        "ID": 18,
+        "Dependencies": {
+          "17": {
+            "ID": 17,
+            "Dependencies": {}
+          }
+        }
+      },
+      "19": {
+        "ID": 19,
+        "Dependencies": {
+          "18": {
+            "ID": 18,
+            "Dependencies": {}
+          }
+        }
+      },
+      "20": {
+        "ID": 20,
+        "Dependencies": {}
+      },
+      "21": {
+        "ID": 21,
+        "Dependencies": {
+          "20": {
+            "ID": 20,
+            "Dependencies": {}
+          }
+        }
+      },
+      "22": {
+        "ID": 22,
+        "Dependencies": {
+          "21": {
+            "ID": 21,
+            "Dependencies": {}
+          }
+        }
+      },
+      "24": {
+        "ID": 24,
+        "Dependencies": {}
+      },
+      "25": {
+        "ID": 25,
+        "Dependencies": {}
+      },
+      "26": {
+        "ID": 26,
+        "Dependencies": {
+          "25": {
+            "ID": 25,
+            "Dependencies": {
+              "28": {
+                "ID": 28,
+                "Dependencies": {}
+              }
+            }
+          }
+        }
+      },
+      "27": {
+        "ID": 27,
+        "Dependencies": {}
+      },
+      "29": {
+        "ID": 29,
+        "Dependencies": {}
+      }
+    }
+  },
+  "Dishes": [
+    {
+      "Name": "Turkey",
+      "Tasks": [
+        {
+          "Description": "Make brine",
+          "Interval": "01:10:00",
+          "BeginTime": "2013-11-27T13:05:27",
+          "DishID": 0,
+          "BeginOffset": "01:10:00",
+          "ID": 6
+        },
+        {
+          "Description": "Cool brine",
+          "Interval": "02:00:00",
+          "BeginTime": "2013-11-27T14:15:27",
+          "DishID": 0,
+          "BeginOffset": "02:00:00",
+          "ID": 7
+        },
+        {
+          "Description": "Prepare turkey for brine",
+          "Interval": "00:15:00",
+          "BeginTime": "2013-11-27T16:15:27",
+          "DishID": 0,
+          "BeginOffset": "00:15:00",
+          "ID": 8
+        },
+        {
+          "Description": "Brine turkey (part 1)",
+          "Interval": "09:00:00",
+          "BeginTime": "2013-11-27T16:30:27",
+          "DishID": 0,
+          "BeginOffset": "09:00:00",
+          "ID": 9
+        },
+        {
+          "Description": "Rotate turkey in brine",
+          "Interval": "00:05:00",
+          "BeginTime": "2013-11-28T01:30:27",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 10
+        },
+        {
+          "Description": "Brine turkey (part 2)",
+          "Interval": "09:00:00",
+          "BeginTime": "2013-11-28T01:35:27",
+          "DishID": 0,
+          "BeginOffset": "09:00:00",
+          "ID": 11
+        },
+        {
+          "Description": "Prepare turkey for roasting",
+          "Interval": "00:45:00",
+          "BeginTime": "2013-11-28T10:35:27",
+          "DishID": 0,
+          "BeginOffset": "00:45:00",
+          "ID": 12
+        },
+        {
+          "Description": "Roast turkey at 500 degrees",
+          "Interval": "00:35:00",
+          "BeginTime": "2013-11-28T11:20:27",
+          "DishID": 0,
+          "BeginOffset": "00:00:00",
+          "ID": 13
+        },
+        {
+          "Description": "Roast turkey at 350 degrees",
+          "Interval": "03:30:00",
+          "BeginTime": "2013-11-28T11:55:27",
+          "DishID": 0,
+          "BeginOffset": "00:00:00",
+          "ID": 14
+        },
+        {
+          "Description": "Let turkey rest",
+          "Interval": "00:15:00",
+          "BeginTime": "2013-11-28T15:25:27",
+          "DishID": 0,
+          "BeginOffset": "00:15:00",
+          "ID": 15
+        },
+        {
+          "Description": "Carve turkey",
+          "Interval": "00:20:00",
+          "BeginTime": "2013-11-28T15:40:27",
+          "DishID": 0,
+          "BeginOffset": "00:20:00",
+          "ID": 16
+        }
+      ],
+      "ID": 0
+    },
+    {
+      "Name": "Mashed Potatoes",
+      "Tasks": [
+        {
+          "Description": "Boil potatoes",
+          "Interval": "01:00:00",
+          "BeginTime": "2013-11-28T14:30:27",
+          "DishID": 1,
+          "BeginOffset": "00:20:00",
+          "ID": 25
+        },
+        {
+          "Description": "Mash potatoes",
+          "Interval": "00:30:00",
+          "BeginTime": "2013-11-28T15:30:27",
+          "DishID": 1,
+          "BeginOffset": "00:30:00",
+          "ID": 26
+        }
+      ],
+      "ID": 1
+    },
+    {
+      "Name": "Bread Dressing",
+      "Tasks": [
+        {
+          "Description": "Cut up bread into cubes",
+          "Interval": "00:20:00",
+          "BeginTime": "2013-11-28T14:20:27",
+          "DishID": 2,
+          "BeginOffset": "00:20:00",
+          "ID": 20
+        },
+        {
+          "Description": "Prepare bread dressing",
+          "Interval": "00:40:00",
+          "BeginTime": "2013-11-28T14:40:27",
+          "DishID": 2,
+          "BeginOffset": "00:40:00",
+          "ID": 21
+        },
+        {
+          "Description": "Bake at 325 degrees",
+          "Interval": "00:40:00",
+          "BeginTime": "2013-11-28T15:20:27",
+          "DishID": 2,
+          "BeginOffset": "00:40:00",
+          "ID": 22
+        }
+      ],
+      "ID": 2
+    },
+    {
+      "Name": "Green Bean Casserole",
+      "Tasks": [
+        {
+          "Description": "Prepare green bean casserole",
+          "Interval": "00:10:00",
+          "BeginTime": "2013-11-28T10:15:27",
+          "DishID": 3,
+          "BeginOffset": "00:10:00",
+          "ID": 17
+        },
+        {
+          "Description": "Cook on low",
+          "Interval": "05:30:00",
+          "BeginTime": "2013-11-28T10:25:27",
+          "DishID": 3,
+          "BeginOffset": "00:00:00",
+          "ID": 18
+        },
+        {
+          "Description": "Top with remaining onions",
+          "Interval": "00:05:00",
+          "BeginTime": "2013-11-28T15:55:27",
+          "DishID": 3,
+          "BeginOffset": "00:05:00",
+          "ID": 19
+        }
+      ],
+      "ID": 3
+    },
+    {
+      "Name": "Cranberry Sauces",
+      "Tasks": [
+        {
+          "Description": "Plate cranberry sauces",
+          "Interval": "00:10:00",
+          "BeginTime": "2013-11-28T15:50:27",
+          "DishID": 5,
+          "BeginOffset": "00:10:00",
+          "ID": 27
+        }
+      ],
+      "ID": 5
+    },
+    {
+      "Name": "Gravy",
+      "Tasks": [
+        {
+          "Description": "Make gravy",
+          "Interval": "00:30:00",
+          "BeginTime": "2013-11-28T15:30:27",
+          "DishID": 23,
+          "BeginOffset": "00:00:00",
+          "ID": 24
+        }
+      ],
+      "ID": 23
+    },
+    {
+      "Name": "Sausage Dressing",
+      "Tasks": [
+        {
+          "Description": "Put in oven to warm",
+          "Interval": "00:20:00",
+          "BeginTime": "2013-11-28T15:40:27",
+          "DishID": 28,
+          "BeginOffset": "00:20:00",
+          "ID": 29
+        }
+      ],
+      "ID": 28
+    }
+  ]
+}
