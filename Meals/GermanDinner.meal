@@ -180,6 +180,95 @@
             "Dependencies": {}
           }
         }
+      },
+      "23": {
+        "ID": 23,
+        "Dependencies": {}
+      },
+      "24": {
+        "ID": 24,
+        "Dependencies": {
+          "23": {
+            "ID": 23,
+            "Dependencies": {}
+          }
+        }
+      },
+      "28": {
+        "ID": 28,
+        "Dependencies": {
+          "27": {
+            "ID": 27,
+            "Dependencies": {}
+          }
+        }
+      },
+      "27": {
+        "ID": 27,
+        "Dependencies": {
+          "24": {
+            "ID": 24,
+            "Dependencies": {}
+          }
+        }
+      },
+      "30": {
+        "ID": 30,
+        "Dependencies": {}
+      },
+      "31": {
+        "ID": 31,
+        "Dependencies": {
+          "30": {
+            "ID": 30,
+            "Dependencies": {}
+          }
+        }
+      },
+      "32": {
+        "ID": 32,
+        "Dependencies": {
+          "31": {
+            "ID": 31,
+            "Dependencies": {}
+          }
+        }
+      },
+      "33": {
+        "ID": 33,
+        "Dependencies": {
+          "32": {
+            "ID": 32,
+            "Dependencies": {}
+          }
+        }
+      },
+      "34": {
+        "ID": 34,
+        "Dependencies": {
+          "33": {
+            "ID": 33,
+            "Dependencies": {}
+          }
+        }
+      },
+      "35": {
+        "ID": 35,
+        "Dependencies": {
+          "34": {
+            "ID": 34,
+            "Dependencies": {}
+          }
+        }
+      },
+      "36": {
+        "ID": 36,
+        "Dependencies": {
+          "35": {
+            "ID": 35,
+            "Dependencies": {}
+          }
+        }
       }
     }
   },
@@ -355,6 +444,106 @@
         }
       ],
       "ID": 17
+    },
+    {
+      "Name": "Hot Potato Salad",
+      "Tasks": [
+        {
+          "Description": "Boil potatoes",
+          "Interval": "00:45:00",
+          "BeginTime": "2014-12-26T18:30:29",
+          "DishID": 22,
+          "BeginOffset": "00:45:00",
+          "ID": 23
+        },
+        {
+          "Description": "Cook other ingredients and combine",
+          "Interval": "00:45:00",
+          "BeginTime": "2014-12-26T19:15:29",
+          "DishID": 22,
+          "BeginOffset": "00:45:00",
+          "ID": 24
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "19:00:00",
+          "BeginTime": "2014-12-26T20:00:29",
+          "DishID": 22,
+          "BeginOffset": "19:00:00",
+          "ID": 27
+        },
+        {
+          "Description": "Warm in oven",
+          "Interval": "03:00:00",
+          "BeginTime": "2014-12-27T15:00:29",
+          "DishID": 22,
+          "BeginOffset": "03:00:00",
+          "ID": 28
+        }
+      ],
+      "ID": 22
+    },
+    {
+      "Name": "Spaetzle",
+      "Tasks": [
+        {
+          "Description": "Make dough",
+          "Interval": "00:40:00",
+          "BeginTime": "2014-12-26T19:50:29",
+          "DishID": 29,
+          "BeginOffset": "00:40:00",
+          "ID": 30
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "19:00:00",
+          "BeginTime": "2014-12-26T20:30:29",
+          "DishID": 29,
+          "BeginOffset": "19:00:00",
+          "ID": 31
+        },
+        {
+          "Description": "Warm up on counter",
+          "Interval": "00:45:00",
+          "BeginTime": "2014-12-27T15:30:29",
+          "DishID": 29,
+          "BeginOffset": "00:45:00",
+          "ID": 32
+        },
+        {
+          "Description": "Start water boiling",
+          "Interval": "00:30:00",
+          "BeginTime": "2014-12-27T16:15:29",
+          "DishID": 29,
+          "BeginOffset": "00:30:00",
+          "ID": 33
+        },
+        {
+          "Description": "Put dough through spaetzle maker",
+          "Interval": "00:45:00",
+          "BeginTime": "2014-12-27T16:45:29",
+          "DishID": 29,
+          "BeginOffset": "00:45:00",
+          "ID": 34
+        },
+        {
+          "Description": "Brown in butter",
+          "Interval": "00:20:00",
+          "BeginTime": "2014-12-27T17:30:29",
+          "DishID": 29,
+          "BeginOffset": "00:20:00",
+          "ID": 35
+        },
+        {
+          "Description": "Plate",
+          "Interval": "00:10:00",
+          "BeginTime": "2014-12-27T17:50:29",
+          "DishID": 29,
+          "BeginOffset": "00:10:00",
+          "ID": 36
+        }
+      ],
+      "ID": 29
     }
   ]
 }
