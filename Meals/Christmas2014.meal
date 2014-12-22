@@ -287,17 +287,17 @@
         {
           "Description": "Make cornbread",
           "Interval": "01:00:00",
-          "BeginTime": "2014-12-22T21:50:06",
+          "BeginTime": "2014-12-22T19:20:06",
           "DishID": 0,
           "BeginOffset": "01:00:00",
           "ID": 1
         },
         {
           "Description": "Dry cornbread",
-          "Interval": "19:30:00",
-          "BeginTime": "2014-12-22T22:50:06",
+          "Interval": "22:00:00",
+          "BeginTime": "2014-12-22T20:20:06",
           "DishID": 0,
-          "BeginOffset": "19:30:00",
+          "BeginOffset": "22:00:00",
           "ID": 2
         },
         {
