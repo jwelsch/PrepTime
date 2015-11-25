@@ -51,18 +51,13 @@
           }
         }
       },
-      "20": {
-        "ID": 20,
+      "30": {
+        "ID": 30,
         "Dependencies": {}
       },
       "21": {
         "ID": 21,
-        "Dependencies": {
-          "20": {
-            "ID": 20,
-            "Dependencies": {}
-          }
-        }
+        "Dependencies": {}
       },
       "22": {
         "ID": 22,
@@ -79,7 +74,12 @@
       },
       "25": {
         "ID": 25,
-        "Dependencies": {}
+        "Dependencies": {
+          "31": {
+            "ID": 31,
+            "Dependencies": {}
+          }
+        }
       },
       "26": {
         "ID": 26,
@@ -87,8 +87,8 @@
           "25": {
             "ID": 25,
             "Dependencies": {
-              "28": {
-                "ID": 28,
+              "31": {
+                "ID": 31,
                 "Dependencies": {}
               }
             }
@@ -101,6 +101,15 @@
       },
       "29": {
         "ID": 29,
+        "Dependencies": {
+          "30": {
+            "ID": 30,
+            "Dependencies": {}
+          }
+        }
+      },
+      "31": {
+        "ID": 31,
         "Dependencies": {}
       }
     }
@@ -111,10 +120,10 @@
       "Tasks": [
         {
           "Description": "Prepare turkey for roasting",
-          "Interval": "00:45:00",
-          "BeginTime": "2015-11-26T10:05:27",
+          "Interval": "00:30:00",
+          "BeginTime": "2015-11-26T10:20:27",
           "DishID": 0,
-          "BeginOffset": "00:45:00",
+          "BeginOffset": "00:30:00",
           "ID": 12
         },
         {
@@ -170,6 +179,14 @@
           "DishID": 1,
           "BeginOffset": "00:30:00",
           "ID": 26
+        },
+        {
+          "Description": "Peel potatoes",
+          "Interval": "00:20:00",
+          "BeginTime": "2015-11-26T13:10:27",
+          "DishID": 1,
+          "BeginOffset": "00:20:00",
+          "ID": 31
         }
       ],
       "ID": 1
@@ -178,19 +195,11 @@
       "Name": "Bread Dressing",
       "Tasks": [
         {
-          "Description": "Cut up bread into cubes",
-          "Interval": "00:20:00",
+          "Description": "Put out to warm",
+          "Interval": "01:00:00",
           "BeginTime": "2015-11-26T13:20:27",
           "DishID": 2,
-          "BeginOffset": "00:20:00",
-          "ID": 20
-        },
-        {
-          "Description": "Prepare bread dressing",
-          "Interval": "00:40:00",
-          "BeginTime": "2015-11-26T13:40:27",
-          "DishID": 2,
-          "BeginOffset": "00:40:00",
+          "BeginOffset": "01:00:00",
           "ID": 21
         },
         {
@@ -236,12 +245,20 @@
       "Name": "Sausage Dressing",
       "Tasks": [
         {
-          "Description": "Put in oven to warm",
-          "Interval": "00:20:00",
-          "BeginTime": "2015-11-26T14:40:27",
+          "Description": "Bake in oven",
+          "Interval": "01:00:00",
+          "BeginTime": "2015-11-26T14:00:27",
           "DishID": 28,
-          "BeginOffset": "00:20:00",
+          "BeginOffset": "01:00:00",
           "ID": 29
+        },
+        {
+          "Description": "Put out to warm",
+          "Interval": "01:00:00",
+          "BeginTime": "2015-11-26T13:00:27",
+          "DishID": 28,
+          "BeginOffset": "01:00:00",
+          "ID": 30
         }
       ],
       "ID": 28
