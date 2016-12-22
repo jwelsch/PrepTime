@@ -1,0 +1,534 @@
+{
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Build": 1,
+    "Revision": 844,
+    "MajorRevision": 0,
+    "MinorRevision": 844
+  },
+  "BeginTime": "2014-12-21T09:05:06.7737461-05:00",
+  "EndTime": "2016-12-25T15:00:06",
+  "DependencyGraph": {
+    "Nodes": {
+      "54": {
+        "ID": 54,
+        "Dependencies": {
+          "53": {
+            "ID": 53,
+            "Dependencies": {
+              "49": {
+                "ID": 49,
+                "Dependencies": {
+                  "52": {
+                    "ID": 52,
+                    "Dependencies": {
+                      "51": {
+                        "ID": 51,
+                        "Dependencies": {
+                          "50": {
+                            "ID": 50,
+                            "Dependencies": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "53": {
+        "ID": 53,
+        "Dependencies": {
+          "49": {
+            "ID": 49,
+            "Dependencies": {
+              "52": {
+                "ID": 52,
+                "Dependencies": {
+                  "51": {
+                    "ID": 51,
+                    "Dependencies": {
+                      "50": {
+                        "ID": 50,
+                        "Dependencies": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "52": {
+        "ID": 52,
+        "Dependencies": {
+          "51": {
+            "ID": 51,
+            "Dependencies": {
+              "50": {
+                "ID": 50,
+                "Dependencies": {}
+              }
+            }
+          }
+        }
+      },
+      "49": {
+        "ID": 49,
+        "Dependencies": {
+          "52": {
+            "ID": 52,
+            "Dependencies": {
+              "51": {
+                "ID": 51,
+                "Dependencies": {
+                  "50": {
+                    "ID": 50,
+                    "Dependencies": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "51": {
+        "ID": 51,
+        "Dependencies": {
+          "50": {
+            "ID": 50,
+            "Dependencies": {}
+          }
+        }
+      },
+      "50": {
+        "ID": 50,
+        "Dependencies": {}
+      },
+      "57": {
+        "ID": 57,
+        "Dependencies": {
+          "56": {
+            "ID": 56,
+            "Dependencies": {}
+          }
+        }
+      },
+      "56": {
+        "ID": 56,
+        "Dependencies": {
+          "55": {
+            "ID": 55,
+            "Dependencies": {}
+          }
+        }
+      },
+      "55": {
+        "ID": 55,
+        "Dependencies": {
+          "54": {
+            "ID": 54,
+            "Dependencies": {}
+          }
+        }
+      },
+      "59": {
+        "ID": 59,
+        "Dependencies": {}
+      },
+      "60": {
+        "ID": 60,
+        "Dependencies": {
+          "59": {
+            "ID": 59,
+            "Dependencies": {}
+          }
+        }
+      },
+      "61": {
+        "ID": 61,
+        "Dependencies": {
+          "60": {
+            "ID": 60,
+            "Dependencies": {}
+          }
+        }
+      },
+      "62": {
+        "ID": 62,
+        "Dependencies": {
+          "61": {
+            "ID": 61,
+            "Dependencies": {}
+          }
+        }
+      },
+      "64": {
+        "ID": 64,
+        "Dependencies": {}
+      },
+      "66": {
+        "ID": 66,
+        "Dependencies": {}
+      },
+      "67": {
+        "ID": 67,
+        "Dependencies": {
+          "66": {
+            "ID": 66,
+            "Dependencies": {}
+          }
+        }
+      },
+      "68": {
+        "ID": 68,
+        "Dependencies": {
+          "67": {
+            "ID": 67,
+            "Dependencies": {}
+          }
+        }
+      },
+      "87": {
+        "ID": 87,
+        "Dependencies": {}
+      },
+      "88": {
+        "ID": 88,
+        "Dependencies": {
+          "68": {
+            "ID": 68,
+            "Dependencies": {}
+          }
+        }
+      },
+      "89": {
+        "ID": 89,
+        "Dependencies": {
+          "88": {
+            "ID": 88,
+            "Dependencies": {}
+          }
+        }
+      },
+      "75": {
+        "ID": 75,
+        "Dependencies": {}
+      },
+      "76": {
+        "ID": 76,
+        "Dependencies": {
+          "75": {
+            "ID": 75,
+            "Dependencies": {}
+          }
+        }
+      },
+      "77": {
+        "ID": 77,
+        "Dependencies": {
+          "76": {
+            "ID": 76,
+            "Dependencies": {}
+          }
+        }
+      },
+      "78": {
+        "ID": 78,
+        "Dependencies": {
+          "77": {
+            "ID": 77,
+            "Dependencies": {}
+          }
+        }
+      },
+      "82": {
+        "ID": 82,
+        "Dependencies": {
+          "64": {
+            "ID": 64,
+            "Dependencies": {}
+          }
+        }
+      },
+      "83": {
+        "ID": 83,
+        "Dependencies": {
+          "82": {
+            "ID": 82,
+            "Dependencies": {}
+          }
+        }
+      },
+      "85": {
+        "ID": 85,
+        "Dependencies": {}
+      }
+    }
+  },
+  "Dishes": [
+    {
+      "Name": "Sausage Dressing",
+      "Tasks": [
+        {
+          "Description": "Store cornbread cubes",
+          "Interval": "1.00:00:00",
+          "BeginTime": "2016-12-23T17:45:06",
+          "DishID": 46,
+          "BeginOffset": "1.00:00:00",
+          "ID": 49
+        },
+        {
+          "Description": "Make cornbread",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-23T16:25:06",
+          "DishID": 46,
+          "BeginOffset": "00:30:00",
+          "ID": 50
+        },
+        {
+          "Description": "Bake cornbread",
+          "Interval": "00:35:00",
+          "BeginTime": "2016-12-23T16:55:06",
+          "DishID": 46,
+          "BeginOffset": "00:35:00",
+          "ID": 51
+        },
+        {
+          "Description": "Cut up cornbread",
+          "Interval": "00:15:00",
+          "BeginTime": "2016-12-23T17:30:06",
+          "DishID": 46,
+          "BeginOffset": "00:15:00",
+          "ID": 52
+        },
+        {
+          "Description": "Prep cornbread stuffing",
+          "Interval": "01:00:00",
+          "BeginTime": "2016-12-24T17:45:06",
+          "DishID": 46,
+          "BeginOffset": "01:00:00",
+          "ID": 53
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "18:00:00",
+          "BeginTime": "2016-12-24T18:45:06",
+          "DishID": 46,
+          "BeginOffset": "18:00:00",
+          "ID": 54
+        },
+        {
+          "Description": "Put out to warm",
+          "Interval": "01:00:00",
+          "BeginTime": "2016-12-25T12:45:06",
+          "DishID": 46,
+          "BeginOffset": "01:00:00",
+          "ID": 55
+        },
+        {
+          "Description": "Bake",
+          "Interval": "01:00:00",
+          "BeginTime": "2016-12-25T13:45:06",
+          "DishID": 46,
+          "BeginOffset": "01:00:00",
+          "ID": 56
+        },
+        {
+          "Description": "Rest",
+          "Interval": "00:15:00",
+          "BeginTime": "2016-12-25T14:45:06",
+          "DishID": 46,
+          "BeginOffset": "00:15:00",
+          "ID": 57
+        }
+      ],
+      "ID": 46
+    },
+    {
+      "Name": "Bread Dressing",
+      "Tasks": [
+        {
+          "Description": "Prep bread dressing",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-24T18:45:06",
+          "DishID": 58,
+          "BeginOffset": "00:30:00",
+          "ID": 59
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "18:00:00",
+          "BeginTime": "2016-12-24T19:15:06",
+          "DishID": 58,
+          "BeginOffset": "18:00:00",
+          "ID": 60
+        },
+        {
+          "Description": "Put out to warm",
+          "Interval": "01:00:00",
+          "BeginTime": "2016-12-25T13:15:06",
+          "DishID": 58,
+          "BeginOffset": "01:00:00",
+          "ID": 61
+        },
+        {
+          "Description": "Bake",
+          "Interval": "00:45:00",
+          "BeginTime": "2016-12-25T14:15:06",
+          "DishID": 58,
+          "BeginOffset": "00:45:00",
+          "ID": 62
+        }
+      ],
+      "ID": 58
+    },
+    {
+      "Name": "Brussels Sprouts",
+      "Tasks": [
+        {
+          "Description": "Prep Brussels Sprouts & Bacon",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-25T13:55:06",
+          "DishID": 63,
+          "BeginOffset": "00:30:00",
+          "ID": 64
+        },
+        {
+          "Description": "Cook",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-25T14:25:06",
+          "DishID": 63,
+          "BeginOffset": "00:30:00",
+          "ID": 82
+        },
+        {
+          "Description": "Plate",
+          "Interval": "00:05:00",
+          "BeginTime": "2016-12-25T14:55:06",
+          "DishID": 63,
+          "BeginOffset": "00:05:00",
+          "ID": 83
+        }
+      ],
+      "ID": 63
+    },
+    {
+      "Name": "Ham",
+      "Tasks": [
+        {
+          "Description": "Prep glaze",
+          "Interval": "00:15:00",
+          "BeginTime": "2016-12-25T11:30:06",
+          "DishID": 65,
+          "BeginOffset": "00:15:00",
+          "ID": 66
+        },
+        {
+          "Description": "Prep ham",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-25T11:45:06",
+          "DishID": 65,
+          "BeginOffset": "00:30:00",
+          "ID": 67
+        },
+        {
+          "Description": "Put in oven",
+          "Interval": "01:45:00",
+          "BeginTime": "2016-12-25T12:15:06",
+          "DishID": 65,
+          "BeginOffset": "01:45:00",
+          "ID": 68
+        },
+        {
+          "Description": "Let rest",
+          "Interval": "00:45:00",
+          "BeginTime": "2016-12-25T14:00:06",
+          "DishID": 65,
+          "BeginOffset": "00:45:00",
+          "ID": 88
+        },
+        {
+          "Description": "Carve",
+          "Interval": "00:15:00",
+          "BeginTime": "2016-12-25T14:45:06",
+          "DishID": 65,
+          "BeginOffset": "00:15:00",
+          "ID": 89
+        }
+      ],
+      "ID": 65
+    },
+    {
+      "Name": "Mashed Potatoes",
+      "Tasks": [
+        {
+          "Description": "Peel potatoes",
+          "Interval": "00:20:00",
+          "BeginTime": "2016-12-25T12:55:06",
+          "DishID": 74,
+          "BeginOffset": "00:20:00",
+          "ID": 75
+        },
+        {
+          "Description": "Boil potatoes",
+          "Interval": "01:00:00",
+          "BeginTime": "2016-12-25T13:15:06",
+          "DishID": 74,
+          "BeginOffset": "01:00:00",
+          "ID": 76
+        },
+        {
+          "Description": "Mash potatoes",
+          "Interval": "00:15:00",
+          "BeginTime": "2016-12-25T14:15:06",
+          "DishID": 74,
+          "BeginOffset": "00:15:00",
+          "ID": 77
+        },
+        {
+          "Description": "Keep warm",
+          "Interval": "00:30:00",
+          "BeginTime": "2016-12-25T14:30:06",
+          "DishID": 74,
+          "BeginOffset": "00:30:00",
+          "ID": 78
+        }
+      ],
+      "ID": 74
+    },
+    {
+      "Name": "Cranberry Dressing",
+      "Tasks": [
+        {
+          "Description": "Plate",
+          "Interval": "00:05:00",
+          "BeginTime": "2016-12-25T14:55:06",
+          "DishID": 84,
+          "BeginOffset": "00:05:00",
+          "ID": 85
+        }
+      ],
+      "ID": 84
+    },
+    {
+      "Name": "Bread",
+      "Tasks": [
+        {
+          "Description": "Start in machine",
+          "Interval": "02:00:00",
+          "BeginTime": "2016-12-25T13:00:06",
+          "DishID": 86,
+          "BeginOffset": "02:00:00",
+          "ID": 87
+        }
+      ],
+      "ID": 86
+    }
+  ]
+}
