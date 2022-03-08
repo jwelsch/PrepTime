@@ -1,0 +1,412 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Preparation Timeline</title>
+<style>
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* end reset browser styles */
+
+html[data-useragent*='MSIE']
+{
+   font-size: .9em;
+}
+body
+{
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h1
+{
+   font-size: 2em;
+   font-weight: bold;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+table
+{
+   border-collapse: collapse;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+table td, table th
+{
+   font-size: 1em;
+   padding: 3px 7px 2px 7px;
+}
+table td, table th
+{
+   padding: 3px 7px 2px 7px;
+}
+table th
+{
+   font-size: 1.1em;
+   text-align: left;
+   padding-top: 5px;
+   padding-bottom: 4px;
+   color: #FFFFFF;
+}
+table.times td, table.times th 
+{
+   border: 1px solid #C02121;
+}
+table.times th
+{
+   background-color: #CA6B43;
+}
+table.times tr:nth-child(even)
+{
+   background-color: #F3E2D3;
+}
+table.dishes td, table.dishes th
+{
+   border: 1px solid #2123C0;
+}
+table.dishes th
+{
+   background-color: #4382CA;
+}
+table.dishes tr:nth-child(even)
+{
+   background-color: #D3EEF3;
+}
+table.tasks td, table.tasks th 
+{
+   border: 1px solid #98BF21;
+}
+table.tasks th 
+{
+   background-color: #A7C942;
+}
+table.tasks tr:nth-child(even)
+{
+   background-color: #EAF2D3;
+}
+td.rightAlign
+{
+   text-align: right;
+}
+div.mainData
+{
+}
+footer
+{
+   font-size: 1em;
+   margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<script>
+var id = "";
+if ( navigator.userAgent.indexOf( "Trident" ) >= 0 ) id = "MSIE";
+else if ( navigator.userAgent.indexOf( "MSIE" ) >= 0 ) id = "MSIE";
+else if ( navigator.userAgent.indexOf( "Firefox" ) >= 0 ) id = "Firefox";
+else if ( navigator.userAgent.indexOf( "Opera" ) >= 0 ) id = "Opera";
+else if ( navigator.userAgent.indexOf( "Chrome" ) >= 0 ) id = "Chrome";
+else if ( navigator.userAgent.indexOf( "Safari" ) >= 0 ) id = "Safari";
+document.documentElement.setAttribute( "data-useragent", id );
+</script>
+<header>
+<h1>Preparation Timeline</h1>
+</header>
+<article>
+<div>
+<table class="times">
+<tr>
+<th colspan="2">Times</th>
+</tr>
+<tr>
+<td>Begin time</td>
+<td>11:10 AM Dec 20, 2017</td>
+</tr>
+<tr>
+<td>End time</td>
+<td>04:00 PM Dec 24, 2017</td>
+</tr>
+<tr>
+<td>Total length</td>
+<td>100:50</td>
+</tr>
+</table>
+<table class="dishes">
+<tr>
+<th>Dishes</th><th>Length</th>
+</tr>
+<tr>
+<td>Sauerbraten</td>
+<td class="rightAlign">100:50</td>
+</tr>
+<tr>
+<td>Sauerkraut</td>
+<td class="rightAlign">30:15</td>
+</tr>
+<tr>
+<td>Hot Potato Salad</td>
+<td class="rightAlign">23:30</td>
+</tr>
+<tr>
+<td>Spaetzle</td>
+<td class="rightAlign">22:10</td>
+</tr>
+<tr>
+<td>Green Beans</td>
+<td class="rightAlign">00:30</td>
+</tr>
+</table>
+</div>
+<div class="mainData">
+<table class="tasks">
+<tr>
+<th>Time</th>
+<th>Interval</th>
+<th>Dish</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>11:10 AM Dec 20, 2017</td>
+<td class="rightAlign">00:15</td>
+<td>Sauerbraten</td>
+<td>Make marinade</td>
+</tr>
+<tr>
+<td>11:25 AM Dec 20, 2017</td>
+<td class="rightAlign">23:55</td>
+<td>Sauerbraten</td>
+<td>Marinate</td>
+</tr>
+<tr>
+<td>11:20 AM Dec 21, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Turn meat</td>
+</tr>
+<tr>
+<td>11:25 AM Dec 21, 2017</td>
+<td class="rightAlign">23:55</td>
+<td>Sauerbraten</td>
+<td>Marinate</td>
+</tr>
+<tr>
+<td>11:20 AM Dec 22, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Turn meat</td>
+</tr>
+<tr>
+<td>11:25 AM Dec 22, 2017</td>
+<td class="rightAlign">23:55</td>
+<td>Sauerbraten</td>
+<td>Marinate</td>
+</tr>
+<tr>
+<td>09:45 AM Dec 23, 2017</td>
+<td class="rightAlign">00:15</td>
+<td>Sauerkraut</td>
+<td>Prep</td>
+</tr>
+<tr>
+<td>10:00 AM Dec 23, 2017</td>
+<td class="rightAlign">08:00</td>
+<td>Sauerkraut</td>
+<td>Bake</td>
+</tr>
+<tr>
+<td>11:20 AM Dec 23, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Turn meat</td>
+</tr>
+<tr>
+<td>11:25 AM Dec 23, 2017</td>
+<td class="rightAlign">23:55</td>
+<td>Sauerbraten</td>
+<td>Marinate</td>
+</tr>
+<tr>
+<td>04:30 PM Dec 23, 2017</td>
+<td class="rightAlign">00:45</td>
+<td>Hot Potato Salad</td>
+<td>Boil potatoes</td>
+</tr>
+<tr>
+<td>05:15 PM Dec 23, 2017</td>
+<td class="rightAlign">00:45</td>
+<td>Hot Potato Salad</td>
+<td>Cook other ingredients and combine</td>
+</tr>
+<tr>
+<td>05:50 PM Dec 23, 2017</td>
+<td class="rightAlign">00:40</td>
+<td>Spaetzle</td>
+<td>Make dough</td>
+</tr>
+<tr>
+<td>06:00 PM Dec 23, 2017</td>
+<td class="rightAlign">19:00</td>
+<td>Sauerkraut</td>
+<td>Refrigerate</td>
+</tr>
+<tr>
+<td>06:00 PM Dec 23, 2017</td>
+<td class="rightAlign">19:00</td>
+<td>Hot Potato Salad</td>
+<td>Refrigerate</td>
+</tr>
+<tr>
+<td>06:30 PM Dec 23, 2017</td>
+<td class="rightAlign">19:00</td>
+<td>Spaetzle</td>
+<td>Refrigerate</td>
+</tr>
+<tr>
+<td>11:20 AM Dec 24, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Turn meat</td>
+</tr>
+<tr>
+<td>11:25 AM Dec 24, 2017</td>
+<td class="rightAlign">00:35</td>
+<td>Sauerbraten</td>
+<td>Remove from marinade and brown</td>
+</tr>
+<tr>
+<td>12:00 PM Dec 24, 2017</td>
+<td class="rightAlign">03:00</td>
+<td>Sauerbraten</td>
+<td>Boil and simmer</td>
+</tr>
+<tr>
+<td>01:00 PM Dec 24, 2017</td>
+<td class="rightAlign">03:00</td>
+<td>Sauerkraut</td>
+<td>Warm in oven</td>
+</tr>
+<tr>
+<td>01:00 PM Dec 24, 2017</td>
+<td class="rightAlign">03:00</td>
+<td>Hot Potato Salad</td>
+<td>Warm in oven</td>
+</tr>
+<tr>
+<td>01:30 PM Dec 24, 2017</td>
+<td class="rightAlign">00:45</td>
+<td>Spaetzle</td>
+<td>Warm up on counter</td>
+</tr>
+<tr>
+<td>02:15 PM Dec 24, 2017</td>
+<td class="rightAlign">00:30</td>
+<td>Spaetzle</td>
+<td>Start water boiling</td>
+</tr>
+<tr>
+<td>02:45 PM Dec 24, 2017</td>
+<td class="rightAlign">00:45</td>
+<td>Spaetzle</td>
+<td>Put dough through spaetzle maker</td>
+</tr>
+<tr>
+<td>03:00 PM Dec 24, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Remove meat</td>
+</tr>
+<tr>
+<td>03:05 PM Dec 24, 2017</td>
+<td class="rightAlign">00:15</td>
+<td>Sauerbraten</td>
+<td>Prep gravy</td>
+</tr>
+<tr>
+<td>03:20 PM Dec 24, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Slice meat</td>
+</tr>
+<tr>
+<td>03:25 PM Dec 24, 2017</td>
+<td class="rightAlign">00:30</td>
+<td>Sauerbraten</td>
+<td>Simmer in gravy</td>
+</tr>
+<tr>
+<td>03:30 PM Dec 24, 2017</td>
+<td class="rightAlign">00:20</td>
+<td>Spaetzle</td>
+<td>Brown in butter</td>
+</tr>
+<tr>
+<td>03:30 PM Dec 24, 2017</td>
+<td class="rightAlign">00:10</td>
+<td>Green Beans</td>
+<td>Prep grean beans</td>
+</tr>
+<tr>
+<td>03:40 PM Dec 24, 2017</td>
+<td class="rightAlign">00:15</td>
+<td>Green Beans</td>
+<td>Boil grean beans</td>
+</tr>
+<tr>
+<td>03:50 PM Dec 24, 2017</td>
+<td class="rightAlign">00:10</td>
+<td>Spaetzle</td>
+<td>Plate</td>
+</tr>
+<tr>
+<td>03:55 PM Dec 24, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Sauerbraten</td>
+<td>Plate</td>
+</tr>
+<tr>
+<td>03:55 PM Dec 24, 2017</td>
+<td class="rightAlign">00:05</td>
+<td>Green Beans</td>
+<td>Plate grean beans</td>
+</tr>
+</table>
+</div>
+</article>
+<footer>
+Created by <a href="http://www.digimodern.com/preptime/">PrepTime</a> Copyright © DigiModern Software Solutions Inc. 2013-2014
+</footer>
+</body>
+</html>
