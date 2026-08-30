@@ -1,0 +1,601 @@
+{
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Build": 1,
+    "Revision": 845,
+    "MajorRevision": 0,
+    "MinorRevision": 845
+  },
+  "BeginTime": "2014-12-21T11:36:29.4434292-05:00",
+  "EndTime": "2017-12-24T16:00:29",
+  "DependencyGraph": {
+    "Nodes": {
+      "1": {
+        "ID": 1,
+        "Dependencies": {}
+      },
+      "2": {
+        "ID": 2,
+        "Dependencies": {
+          "1": {
+            "ID": 1,
+            "Dependencies": {}
+          }
+        }
+      },
+      "3": {
+        "ID": 3,
+        "Dependencies": {
+          "2": {
+            "ID": 2,
+            "Dependencies": {}
+          }
+        }
+      },
+      "4": {
+        "ID": 4,
+        "Dependencies": {
+          "3": {
+            "ID": 3,
+            "Dependencies": {}
+          }
+        }
+      },
+      "5": {
+        "ID": 5,
+        "Dependencies": {
+          "4": {
+            "ID": 4,
+            "Dependencies": {}
+          }
+        }
+      },
+      "6": {
+        "ID": 6,
+        "Dependencies": {
+          "5": {
+            "ID": 5,
+            "Dependencies": {}
+          }
+        }
+      },
+      "7": {
+        "ID": 7,
+        "Dependencies": {
+          "6": {
+            "ID": 6,
+            "Dependencies": {}
+          }
+        }
+      },
+      "8": {
+        "ID": 8,
+        "Dependencies": {
+          "7": {
+            "ID": 7,
+            "Dependencies": {}
+          }
+        }
+      },
+      "9": {
+        "ID": 9,
+        "Dependencies": {
+          "8": {
+            "ID": 8,
+            "Dependencies": {}
+          }
+        }
+      },
+      "10": {
+        "ID": 10,
+        "Dependencies": {
+          "9": {
+            "ID": 9,
+            "Dependencies": {}
+          }
+        }
+      },
+      "11": {
+        "ID": 11,
+        "Dependencies": {
+          "10": {
+            "ID": 10,
+            "Dependencies": {}
+          }
+        }
+      },
+      "12": {
+        "ID": 12,
+        "Dependencies": {
+          "11": {
+            "ID": 11,
+            "Dependencies": {}
+          }
+        }
+      },
+      "13": {
+        "ID": 13,
+        "Dependencies": {
+          "12": {
+            "ID": 12,
+            "Dependencies": {}
+          }
+        }
+      },
+      "14": {
+        "ID": 14,
+        "Dependencies": {
+          "13": {
+            "ID": 13,
+            "Dependencies": {}
+          }
+        }
+      },
+      "15": {
+        "ID": 15,
+        "Dependencies": {
+          "14": {
+            "ID": 14,
+            "Dependencies": {}
+          }
+        }
+      },
+      "16": {
+        "ID": 16,
+        "Dependencies": {
+          "15": {
+            "ID": 15,
+            "Dependencies": {}
+          }
+        }
+      },
+      "18": {
+        "ID": 18,
+        "Dependencies": {}
+      },
+      "19": {
+        "ID": 19,
+        "Dependencies": {
+          "18": {
+            "ID": 18,
+            "Dependencies": {}
+          }
+        }
+      },
+      "20": {
+        "ID": 20,
+        "Dependencies": {
+          "19": {
+            "ID": 19,
+            "Dependencies": {}
+          }
+        }
+      },
+      "21": {
+        "ID": 21,
+        "Dependencies": {
+          "20": {
+            "ID": 20,
+            "Dependencies": {}
+          }
+        }
+      },
+      "23": {
+        "ID": 23,
+        "Dependencies": {}
+      },
+      "24": {
+        "ID": 24,
+        "Dependencies": {
+          "23": {
+            "ID": 23,
+            "Dependencies": {}
+          }
+        }
+      },
+      "28": {
+        "ID": 28,
+        "Dependencies": {
+          "27": {
+            "ID": 27,
+            "Dependencies": {}
+          }
+        }
+      },
+      "27": {
+        "ID": 27,
+        "Dependencies": {
+          "24": {
+            "ID": 24,
+            "Dependencies": {}
+          }
+        }
+      },
+      "30": {
+        "ID": 30,
+        "Dependencies": {}
+      },
+      "31": {
+        "ID": 31,
+        "Dependencies": {
+          "30": {
+            "ID": 30,
+            "Dependencies": {}
+          }
+        }
+      },
+      "32": {
+        "ID": 32,
+        "Dependencies": {
+          "31": {
+            "ID": 31,
+            "Dependencies": {}
+          }
+        }
+      },
+      "33": {
+        "ID": 33,
+        "Dependencies": {
+          "32": {
+            "ID": 32,
+            "Dependencies": {}
+          }
+        }
+      },
+      "34": {
+        "ID": 34,
+        "Dependencies": {
+          "33": {
+            "ID": 33,
+            "Dependencies": {}
+          }
+        }
+      },
+      "35": {
+        "ID": 35,
+        "Dependencies": {
+          "34": {
+            "ID": 34,
+            "Dependencies": {}
+          }
+        }
+      },
+      "36": {
+        "ID": 36,
+        "Dependencies": {
+          "35": {
+            "ID": 35,
+            "Dependencies": {}
+          }
+        }
+      },
+      "38": {
+        "ID": 38,
+        "Dependencies": {}
+      },
+      "39": {
+        "ID": 39,
+        "Dependencies": {
+          "38": {
+            "ID": 38,
+            "Dependencies": {}
+          }
+        }
+      },
+      "40": {
+        "ID": 40,
+        "Dependencies": {
+          "39": {
+            "ID": 39,
+            "Dependencies": {}
+          }
+        }
+      }
+    }
+  },
+  "Dishes": [
+    {
+      "Name": "Sauerbraten",
+      "Tasks": [
+        {
+          "Description": "Make marinade",
+          "Interval": "00:15:00",
+          "BeginTime": "2017-12-20T11:10:29",
+          "DishID": 0,
+          "BeginOffset": "00:15:00",
+          "ID": 1
+        },
+        {
+          "Description": "Marinate",
+          "Interval": "23:55:00",
+          "BeginTime": "2017-12-20T11:25:29",
+          "DishID": 0,
+          "BeginOffset": "23:55:00",
+          "ID": 2
+        },
+        {
+          "Description": "Turn meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-21T11:20:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 3
+        },
+        {
+          "Description": "Marinate",
+          "Interval": "23:55:00",
+          "BeginTime": "2017-12-21T11:25:29",
+          "DishID": 0,
+          "BeginOffset": "23:55:00",
+          "ID": 4
+        },
+        {
+          "Description": "Turn meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-22T11:20:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 5
+        },
+        {
+          "Description": "Marinate",
+          "Interval": "23:55:00",
+          "BeginTime": "2017-12-22T11:25:29",
+          "DishID": 0,
+          "BeginOffset": "23:55:00",
+          "ID": 6
+        },
+        {
+          "Description": "Turn meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-23T11:20:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 7
+        },
+        {
+          "Description": "Marinate",
+          "Interval": "23:55:00",
+          "BeginTime": "2017-12-23T11:25:29",
+          "DishID": 0,
+          "BeginOffset": "23:55:00",
+          "ID": 8
+        },
+        {
+          "Description": "Turn meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-24T11:20:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 9
+        },
+        {
+          "Description": "Remove from marinade and brown",
+          "Interval": "00:35:00",
+          "BeginTime": "2017-12-24T11:25:29",
+          "DishID": 0,
+          "BeginOffset": "00:35:00",
+          "ID": 10
+        },
+        {
+          "Description": "Boil and simmer",
+          "Interval": "03:00:00",
+          "BeginTime": "2017-12-24T12:00:29",
+          "DishID": 0,
+          "BeginOffset": "03:00:00",
+          "ID": 11
+        },
+        {
+          "Description": "Remove meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-24T15:00:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 12
+        },
+        {
+          "Description": "Prep gravy",
+          "Interval": "00:15:00",
+          "BeginTime": "2017-12-24T15:05:29",
+          "DishID": 0,
+          "BeginOffset": "00:15:00",
+          "ID": 13
+        },
+        {
+          "Description": "Slice meat",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-24T15:20:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 14
+        },
+        {
+          "Description": "Simmer in gravy",
+          "Interval": "00:30:00",
+          "BeginTime": "2017-12-24T15:25:29",
+          "DishID": 0,
+          "BeginOffset": "00:30:00",
+          "ID": 15
+        },
+        {
+          "Description": "Plate",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-24T15:55:29",
+          "DishID": 0,
+          "BeginOffset": "00:05:00",
+          "ID": 16
+        }
+      ],
+      "ID": 0
+    },
+    {
+      "Name": "Sauerkraut",
+      "Tasks": [
+        {
+          "Description": "Prep",
+          "Interval": "00:15:00",
+          "BeginTime": "2017-12-23T09:45:29",
+          "DishID": 17,
+          "BeginOffset": "00:15:00",
+          "ID": 18
+        },
+        {
+          "Description": "Bake",
+          "Interval": "08:00:00",
+          "BeginTime": "2017-12-23T10:00:29",
+          "DishID": 17,
+          "BeginOffset": "08:00:00",
+          "ID": 19
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "19:00:00",
+          "BeginTime": "2017-12-23T18:00:29",
+          "DishID": 17,
+          "BeginOffset": "19:00:00",
+          "ID": 20
+        },
+        {
+          "Description": "Warm in oven",
+          "Interval": "03:00:00",
+          "BeginTime": "2017-12-24T13:00:29",
+          "DishID": 17,
+          "BeginOffset": "03:00:00",
+          "ID": 21
+        }
+      ],
+      "ID": 17
+    },
+    {
+      "Name": "Hot Potato Salad",
+      "Tasks": [
+        {
+          "Description": "Boil potatoes",
+          "Interval": "00:45:00",
+          "BeginTime": "2017-12-23T16:30:29",
+          "DishID": 22,
+          "BeginOffset": "00:45:00",
+          "ID": 23
+        },
+        {
+          "Description": "Cook other ingredients and combine",
+          "Interval": "00:45:00",
+          "BeginTime": "2017-12-23T17:15:29",
+          "DishID": 22,
+          "BeginOffset": "00:45:00",
+          "ID": 24
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "19:00:00",
+          "BeginTime": "2017-12-23T18:00:29",
+          "DishID": 22,
+          "BeginOffset": "19:00:00",
+          "ID": 27
+        },
+        {
+          "Description": "Warm in oven",
+          "Interval": "03:00:00",
+          "BeginTime": "2017-12-24T13:00:29",
+          "DishID": 22,
+          "BeginOffset": "03:00:00",
+          "ID": 28
+        }
+      ],
+      "ID": 22
+    },
+    {
+      "Name": "Spaetzle",
+      "Tasks": [
+        {
+          "Description": "Make dough",
+          "Interval": "00:40:00",
+          "BeginTime": "2017-12-23T17:50:29",
+          "DishID": 29,
+          "BeginOffset": "00:40:00",
+          "ID": 30
+        },
+        {
+          "Description": "Refrigerate",
+          "Interval": "19:00:00",
+          "BeginTime": "2017-12-23T18:30:29",
+          "DishID": 29,
+          "BeginOffset": "19:00:00",
+          "ID": 31
+        },
+        {
+          "Description": "Warm up on counter",
+          "Interval": "00:45:00",
+          "BeginTime": "2017-12-24T13:30:29",
+          "DishID": 29,
+          "BeginOffset": "00:45:00",
+          "ID": 32
+        },
+        {
+          "Description": "Start water boiling",
+          "Interval": "00:30:00",
+          "BeginTime": "2017-12-24T14:15:29",
+          "DishID": 29,
+          "BeginOffset": "00:30:00",
+          "ID": 33
+        },
+        {
+          "Description": "Put dough through spaetzle maker",
+          "Interval": "00:45:00",
+          "BeginTime": "2017-12-24T14:45:29",
+          "DishID": 29,
+          "BeginOffset": "00:45:00",
+          "ID": 34
+        },
+        {
+          "Description": "Brown in butter",
+          "Interval": "00:20:00",
+          "BeginTime": "2017-12-24T15:30:29",
+          "DishID": 29,
+          "BeginOffset": "00:20:00",
+          "ID": 35
+        },
+        {
+          "Description": "Plate",
+          "Interval": "00:10:00",
+          "BeginTime": "2017-12-24T15:50:29",
+          "DishID": 29,
+          "BeginOffset": "00:10:00",
+          "ID": 36
+        }
+      ],
+      "ID": 29
+    },
+    {
+      "Name": "Green Beans",
+      "Tasks": [
+        {
+          "Description": "Prep grean beans",
+          "Interval": "00:10:00",
+          "BeginTime": "2017-12-24T15:30:29",
+          "DishID": 37,
+          "BeginOffset": "00:10:00",
+          "ID": 38
+        },
+        {
+          "Description": "Boil grean beans",
+          "Interval": "00:15:00",
+          "BeginTime": "2017-12-24T15:40:29",
+          "DishID": 37,
+          "BeginOffset": "00:15:00",
+          "ID": 39
+        },
+        {
+          "Description": "Plate grean beans",
+          "Interval": "00:05:00",
+          "BeginTime": "2017-12-24T15:55:29",
+          "DishID": 37,
+          "BeginOffset": "00:05:00",
+          "ID": 40
+        }
+      ],
+      "ID": 37
+    }
+  ]
+}
